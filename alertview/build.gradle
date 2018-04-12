@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.jfrog.bintray'
 
 version = "1.0.3"
 
@@ -27,6 +27,7 @@ def siteUrl = 'https://github.com/saiwu-bigkoo/Android-AlertView'               
 def gitUrl = 'https://github.com/saiwu-bigkoo/Android-AlertView.git'                     // #CONFIG# // project git
 group = "com.bigkoo"
 
+/*
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
@@ -94,3 +95,4 @@ bintray {
         publish = true
     }
 }
+*/
